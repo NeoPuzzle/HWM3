@@ -3,28 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Mi Primer Sitio Web</title>
 </head>
 <body>
     <header>
-        <h1>El Blog del PsicoAnalista</h1>
-        <span> Articulos / </span>
-        <span> Entrevistas / </span>
-        <span> Eventos / </span>
-        <span> Testimonios</span>
+        <div id="main-title">
+            <h1>El Blog del PsicoAnalista</h1>
+        </div>
+        <div id="barra-top">
+            <span>Articulos</span>
+            <span>Entrevistas</span>
+            <span>Eventos</span>
+            <span>Testimonios</span>
+        </div>
+        
+        
     </header>
     <Main>
-        <img src="./img/psicoanalista.jpg" height="500"/>
+        <div>
+            <img src="./img/psicoanalista.jpg" class="img-header" />
+        </div>
         <section>
             <article>
-                <div>
-                    <h3>LA POSICIÓN DEL ANALISTA EN LA DIRECCIÓN DE LA CURA
-                    </h3>
-                    <p>
-                        <img src="./img/la posicion del analista.jpg" width="300" height="200" />
+                <h4>LA POSICIÓN DEL ANALISTA EN LA DIRECCIÓN DE LA CURA</h4>
+                <div class="articulo">
+                    <img src="./img/la posicion del analista.jpg" class="img-art"/>
+                    <p class="txt-art">
                         Pensando en las coordenadas dentro de la clínica, desde el lugar de las resistencias y la función del analista, pueden surgir los siguientes interrogantes: ¿En qué se diferencia la clínica psicoanalítica de otras propuestas terapéuticas? Entre tantas ofertas en la actualidad, sean estas psicoterapéuticas o no,  frente a la demanda del padecimiento de un sujeto, ¿a qué convoca la experiencia de un psicoanálisis? 
                     </p>
-                    <hr />
+                </div>
+                <h4>TRATAR TODO COMO SI FUERA UN CLAVO</h4>
+                <div class="articulo">
+                    <img src="./img/llave.jpg" class="img-art"/>
+                    <p class="txt-art">
+                        En la transferencia el analista pone en juego la disolución de su propio saber tal como el paciente lo presupone, y tal como él mismo lo introdujo en una determinada cura. Cada nuevo análisis modifica -o debería modificar- por lo menos algunas de las convicciones que el analista tenía sobre la dinámica del psiquismo antes de escuchar al analizando que viene a confiarle su palabra. Al final de la cura, el análisis conduce al destronamiento de la persona del analista por la disolución del vínculo transferencial.
+                    </p>
                 </div>
             </article>
 
