@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="styleMain.css">
+    <title>Blog Psicoanalisis</title>
+    <script src="main.js"></script>
 </head>
 <body>
     <header>
@@ -12,10 +13,10 @@
             <h1>El Blog del PsicoAnalista</h1>
         </div>
         <div id="barra-top">
-            <span>Articulos</span>
-            <span>Entrevistas</span>
-            <span>Eventos</span>
-            <span>Testimonios</span>
+            <span onclick="clickMenu('Articulos')">Articulos</span>
+            <span onclick="clickMenu('Entrevistas')">Entrevistas</span>
+            <span onclick="clickMenu('Eventos')">Eventos</span>
+            <span onclick="clickMenu('Testimonios')">Testimonios</span>
         </div>
         
         
@@ -23,6 +24,9 @@
     <Main>
         <div>
             <img src="./img/psicoanalista.jpg" class="img-header" />
+        </div>
+        <div id="next-release">
+            <strong>Proximo lanzamiento:</strong> Lunes 20 Enero
         </div>
         <section>
             <article>
@@ -59,7 +63,12 @@
     </Main>
 
     <footer>
-        <a href="https://es.wikipedia.org/wiki/Psicoan%C3%A1lisis" > Wiki</a>
+        <p class="text-footer">Hecho con &#10084;. Psicoanalista &copy; | Todos los derechos reservados</p>
+        <a href="https://es.wikipedia.org/wiki/Psicoan%C3%A1lisis"> 
+            <img class="img-footer" src="./img/wikipedia.jpg" alt="Icono Wiki" />
+        </a>
+        <p class="text-footer">Consultas? Escribenos a psicoanalista@loquero.com</p>
+        
     </footer>
     
 </body>

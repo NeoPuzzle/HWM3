@@ -1,7 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #666, #000);
     margin: 0;
     padding: 0;
+    color: #fff;
+    ;
 }
 
 header {
@@ -25,13 +28,14 @@ span:hover {
 }
 
 .img-header {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
 .articulo {
     display: flex;
+    padding-left: 2%;
 }
 
 .img-art {
@@ -48,7 +52,8 @@ span:hover {
 }
 
 h4 {
-    color: #333;
+    color: #fff;
+    padding-left: 3%;
 }
 
 button {
@@ -57,6 +62,7 @@ button {
     padding: 10px;
     border: none;
     cursor: pointer;
+    margin-left: 2%;
 }
 
 button:hover {
@@ -68,4 +74,27 @@ footer {
     color: #f01010;
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-footer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.text-footer {
+    color: #fff;
+}
+
+#next-release {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    display: none;
 }
