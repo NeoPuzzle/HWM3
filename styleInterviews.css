@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(87, 64, 108) url("img/back-paleta-sf.png") no-repeat bottom right fixed;
+    background-size:auto 20%;
+}
+
+p{
+    height: 250px;
+}
