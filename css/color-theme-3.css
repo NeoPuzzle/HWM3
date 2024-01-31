@@ -1,0 +1,9 @@
+:root{
+    --primary-color: #9BC53D;
+    --primary-color-dark: hsl(53, 98%, 65%);
+    --secondary-color: #E55934;
+    --secondary-color-dark: #FA7921;
+    --gray-color: #ccc;
+    --gray-color-dark: #333;
+
+}
